@@ -1,0 +1,9 @@
+.title{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    background-color: #F6F7FA;
+}
+.title > span > a, .title > span{
+    color: #10a7a7;
+}

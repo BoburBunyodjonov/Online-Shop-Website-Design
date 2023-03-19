@@ -1,0 +1,117 @@
+
+@media screen and (max-width: 1050px) {
+    .navbar{
+        width: 100%;
+    }
+    .header{
+        width: 100%;
+    }
+    .about{
+        width: 95%;
+    }
+    .header{
+        background: #98E4F4;
+    }
+    .categories_search{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;    
+    }
+    .categories_search > form{
+        width: 100%;
+        display: flex;
+        justify-content: center;   
+    }
+    .categories_search > form > input{
+        width: 35%;
+        padding: 15px;
+        border-radius: 5px 0px 0px 5px;
+        border: 2px solid #10a7a7;
+        border-right: none;
+        outline: none;
+    }
+    .categories_search > form > select{
+        width: 25%;
+        padding: 15px;
+        border: 2px solid #10a7a7;
+        border-right: none;
+        outline: none;
+    }
+    .categories_search > form > button{
+        width: 10%;
+        padding: 15px;
+        border-radius: 0px 5px 5px 0px;
+        border: 2px solid #10a7a7;
+        outline: none;
+        background-color: #10a7a7;
+        color: white;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbar{
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .hide{
+        position: static;
+
+    }
+    .logo{
+        justify-content: center;
+    }
+    .menu{
+        justify-content: center;
+    }
+    .search {
+        display: flex;
+        justify-content: center;
+    }
+    .header{
+        height: 100%;
+    }
+    
+    .products{
+        width: 95%;
+        padding: 10px;
+        margin: auto;
+    }
+    .delivery{
+        width: 95%;
+    }
+    .delivery_card > .box{
+        width: 100%;
+    }
+    
+    
+}
+
+@media screen and (max-width: 450px) {
+    .navbar{
+        width: 100%;
+    }
+    .menu > ul{
+        display: block;
+        text-align: center;
+    }
+    .menu > ul > li{
+        padding: 10px;
+    }
+    .categories_search > form > button{
+        width: 15%;
+        padding: 15px;
+        border-radius: 0px 5px 5px 0px;
+        border: 2px solid #10a7a7;
+        outline: none;
+        background-color: #10a7a7;
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
+    .product-about{
+        width: 100%;
+    }
+}
